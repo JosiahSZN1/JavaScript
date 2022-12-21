@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile_page.css">
+    <script src="./making_connections.js"></script>
+    <title>Profile Page</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="nav-left">
+            <h1>Profile Page</h1>
+            <div class="links">
+                <a href="#">Home</a>
+                <a class="active" href="#">My Profile</a>
+                <a href="#">Find Connections</a>
+            </div>
+        </div>
+        <button>Sign Out</button>
+    </div>
+    <div class="main">
+        <div class="main-left">
+            <div class="user-card">
+                <div class="header">
+                    <img class="profile-pic" src="./images/jane-m.jpg" alt="jane-m">
+                </div>
+                <div class="main-content">
+                    <h1>Jane Doe</h1>
+                    <p class="location"><img class="map-marker" src="./icons/map-marker.png" alt="map-marker">Seattle</p>
+                    <p>Developer | Engineer | Problem Solver</p>
+                    <p>Master of shadows and the Internet!</p>
+                    <p><img class="gear" src="./icons/gear.png" alt="gear"><a onclick="changeName()" href="#">edit profile</a></p>
+                </div>
+            </div>
+            <div class="education">
+                <div class="small-header">
+                    <h3>Education</h3>
+                </div>
+                <div class="main-content">
+                    <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                    <p class="time-frame" >Dec 2022 - Mar 2023</p>
+                    <p>Triple black belt in Python, MERN, and #C...</p>
+                </div>
+            </div>
+        </div>
+        <div class="main-right">
+            <div class="requests">
+                <div class="small-header">
+                    <div class="number">2</div>
+                    <h3>Connection Requests</h3>
+                </div>
+                <div>
+                    <div class="request">
+                        <div class="user1">
+                            <div class="user">
+                                <img src="./images/todd-s.jpg" alt="todd-s">
+                                <div>Todd E</div>
+                            </div>
+                            <div class="action">
+                                <img onclick="accept('user1')" src="./icons/accept-circle.png" alt="">
+                                <img onclick="remove('user1')" src="./icons/close-circle.png" alt="">
+                            </div>
+                        </div>
+                        <div class="user2">
+                            <div class="user">
+                                <img src="./images/phil-s.jpg" alt="phil-s">
+                                <div>Phil K</div>
+                            </div>
+                            <div class="action">
+                                <img onclick="accept('user2')" src="./icons/accept-circle.png" alt="">
+                                <img onclick="remove('user2')" src="./icons/close-circle.png" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div>
+                    </div>
+                </div>
+            </div>
+            <div class="connections">
+                <div class="small-header">
+                    <div class="number">500</div>
+                    <h3>Your Connections</h3>
+                </div>
+                <div>
+                    <div class="user">
+                        <img src="./images/adrien-s.jpg" alt="adrien-s">
+                        <p>Adrien D</p>
+                    </div>
+                    <div class="user">
+                        <img src="./images/anne-s.jpg" alt="anne-s">
+                        <p>Anne J</p>
+                    </div>
+                    <div class="user">
+                        <img src="./images/alayne-s.jpg" alt="alayne-s">
+                        <p>Alayne T</p>
+                    </div>
+                    <div class="user">
+                        <img src="./images/arry-s.jpg" alt="arry-s">
+                        <p>Arry Y</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="user">
+                        <a href="#">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

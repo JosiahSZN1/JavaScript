@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px dotted red; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.nav{
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
+.links > a {
+    text-decoration: none;
+    color: white;
+}
+.links{
+    width: 60%;
+    justify-content: space-between;
+    display: flex;
+}
+button {
+    background-color: teal;
+    color: white;
+    height: 30px;
+    padding: 0px 10px;
+}
+.active{
+    font-weight:bold;
+}
+.main{
+    margin: 15px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.main-left{
+    width: 55%;
+    height: 500px;
+}
+.user-card{
+    width: auto;
+    height: 300px;
+    border: 2px solid gray;
+    padding-bottom: 10px;
+}
+.header{
+    background-color: teal;
+    height: 96px;
+    margin-bottom: 50px;
+}
+
+.profile-pic{
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 80px;
+    margin: 50px 30px;
+}
+.map-marker, .gear{
+    height: 16px;
+    margin-right: 5px;
+}
+.main-content{
+    margin-left: 30px;
+}
+p{
+    display: flex;
+    margin: 5px 5px 5px 0px;
+}
+.location {
+    font-size: large;
+}
+.education{
+    border: 2px solid gray;
+    height: 150px;
+    margin-top: 20px;
+}
+.small-header{
+    background-color: rgb(47, 47, 47);
+    color: white;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.time-frame{
+    color: gray;
+}
+.main-right{
+    width: 43%;
+}
+
+.user img{
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.user{
+    display: flex;
+    margin: 10px 30px;
+    width: 50%;
+    align-items: center;
+}
+.action img{
+    height: 30px;
+}
+.user1, .user2{
+    display: flex;
+    justify-content: space-between;
+}
+.requests{
+    height: 170px;
+    border: 2px solid gray;
+}
+.number{
+    background-color: gray;
+    color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 10px 10px 10px 0px;
+}
+.small-header h3{
+    display: flex;
+    align-items: center;
+}
+.request{
+    padding-right: 30px;
+}
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%
+}
+.connections{
+    border: 2px solid gray;
+    margin-top: 20px;
+    height: 290px;
+}
+.connections .small-header .number {
+    width: 50px;
+}
+.requests .small-header, .connections .small-header{
+    margin-bottom: 0px;
+}
+.footer{
+    border-top: 2px solid gray;
+    height: 50px;
+}
+.education .small-header{
+    padding: 10px 0px 10px 30px;
+}

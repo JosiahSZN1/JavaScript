@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border: 1px dotted red; */
+}
+
+#container {
+    margin: 0% 10%;
+    width: 80%;
+}
+
+#container, #contribute {
+    height:fit-content;
+}
+
+#navbar {
+    margin-bottom: 3%;
+    padding: 1% 3%;
+    background-color: rgb(204,204,204);
+}
+
+#navbar, .word-card, .text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar input {
+    width: 50%;
+}
+
+#navbar input, #navbar button, #contribute button {
+    border: 2px solid black;
+    font-size: medium;
+}
+
+#navbar button {
+    width: 10%;
+    color: white;
+    background-color: rgb(43,120,229);
+    
+}
+
+#navbar button, .word button, #contribute button {
+    box-shadow: 2px 2px black;
+}
+
+#main, #main-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-left {
+    width: 66%;
+}
+
+#main-left, .word, .text {
+    flex-direction: column;
+}
+
+.word-card, .word button {
+    padding: 3% 0%;
+    
+}
+
+.word-card, .text {
+    margin-bottom: 5%;
+}
+
+.word-card, .word button, #contribute {
+    border: 2px solid black;
+}
+
+.word {
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.text, .word button {
+    width: 65%;
+}
+
+.grammar {
+    font-style: italic;
+    font-size: large;   
+}
+
+.grammar, .plural {
+    text-align: center;
+}
+
+.plural {
+    font-size: small;
+    margin: 10% 0%;
+}
+
+.word button {
+    padding: 3%;
+    background-color: rgb(255,217,102);
+}
+
+.definition {
+    width: 55%;
+    margin-right: 10%;
+}
+
+#contribute {
+    width: 28%;
+    padding: 1%;
+}
+
+span {
+    font-weight:bolder;
+}
+
+#contribute button {
+    width: 99%;
+    margin: 2% 0%;
+    padding: 2%;
+    background-color: rgb(147,197,125);
+}
